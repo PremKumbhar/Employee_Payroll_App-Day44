@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
-    <title>Employee Payroll System UI</title>
+    <title>Employee payroll form</title>
+      <script src="/employee.js"></script>
+      <script src="/employeePojo.js"></script>
     <style>
     </style>
 </head>
@@ -35,9 +37,10 @@
             </div>
 
             <div class="row-content">
-            <label class="label text" for="name">Name</label>
-            <input class="input" type="text" name="name" id="name" placeholder="Your name.." required>
-            </div>
+                <label class="label text" for="name">Name</label>
+                <input class="input" type="text" name="name" id="name" placeholder="Your Name.." required>
+                <error-output class="text-error" for="text"></error-output>
+              </div>
             <div class="row-content">
                 <label for="profile" class="label text">Profile image</label>
                 <div class="profile-radio-content">
